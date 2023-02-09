@@ -1,0 +1,147 @@
+/* MATRIZ */
+
+@charset "UTF-8";
+@charset 'iso-8859-15';
+@font-face {
+    font-family: 'Sparky';
+    src: url(/font/SparkyStonesRegular-BW6ld.ttf) format(truetype);
+    font-style: normal;
+    font-weight: normal;
+
+    /* 
+        Tipos de format()
+        - opentype (otf)
+        - truetype (ttf)
+        - embedded-opentype
+        - truetype-aat (Apple Advanced Typography)
+        - svg
+    */
+}
+
+@font-face {
+    font-family: 'Rony';
+    src: url(/font/RonysiswadiArchitect6-X3V9G.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* JS */
+:root {
+    /* COLOR PALLETTES */
+    --cor0: black;    
+    --cor1: white;
+    --cor2: rgba(57, 57, 77, 0.8);
+    --cor3: #37af65;
+}
+
+/* COD. BASE */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(/img/school.jpg);
+    color: var(--cor1);
+    
+}
+
+/* HEADER */
+
+#title {
+    font-family: 'Sparky' , Times, Serif ;
+    font-size: 60px ;
+    color: var(--cor0);
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+#description {
+    font-family:'Rony';
+    margin-bottom: 2em;
+    color: var(--cor0);
+    font-size: 20px;
+    text-align: center;
+
+}
+
+/* GENERALY FORMS  */
+p {
+    font-family: 'Rony';
+    font-size: 20px;
+}
+
+label {
+    font-family: 'Rony';
+    font-size: 18px;
+}
+
+input {
+    font-size: 16px;
+}
+
+select {
+    font-size: 16px;
+}
+
+
+.form-group {
+    padding: 8px;
+}
+
+/* FIRST FORM */
+
+.form-control {
+    font-family: 'Rony';
+}
+
+/* SECOND FORM */
+#number {
+    width: 5%;
+}
+
+
+/* THIRD FORM */
+
+/* FOURTH FORM */
+
+/* FIFTH FORM */
+
+/* SIXTH FORM */
+
+/* SEVENTH FORM */
+
+/* EIGHTH FORM */
+.input-textarea {
+    width: 50%;
+    height: 150px;
+}
+/* NINTH FORM */
+#survey-form {
+    background-color: var(--cor2);
+    /* align-items: center;
+    justify-content: center; */
+    width: auto;
+    border: 0px solid;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 8px;
+}
+
+.submit-button {
+    background: #fcce00;
+	color: rgb(0, 0, 0);
+    font-family: 'Rony';
+    font-size: 24px;
+	border-style: outset;
+	border-color: #000000;
+    border: 3px solid gold;
+	height: 50px;
+	width: 100px;
+	text-shadow: none;
+    
+}
+
+
+
